@@ -13,6 +13,16 @@ A text-based dungeon-crawler RPG built in Java, featuring turn-based combat, an 
 - Java 17+ (no external libraries — uses only the standard library)
 
 ## Project Structure
+DungeonQuest/
+├── Main.java # Entry point, dungeon loop, save/load menu
+├── Player.java # Player character class
+├── Monster.java # Enemy class
+├── Item.java # Item class (potions, etc.)
+├── Inventory.java # Manages the player's items
+├── CombatSystem.java # Turn-based combat logic
+├── Room.java # Represents a single dungeon room
+├── SaveManager.java # Handles saving/loading via file I/O
+└── README.md
 
 
 ### How to Play
